@@ -1,0 +1,92 @@
+dasso@DESKTOP-1DEJLC7 MINGW64 ~
+$ cd Desktop
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop
+$ mkdir test
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop
+$ cd test
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test
+$ touch index.html styles.css
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test
+$ git init
+Initialized empty Git repository in C:/Users/dasso/Desktop/test/.git/
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git add .
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git commit -m "first commit"
+[master (root-commit) 1eba0e4] first commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ start index.html
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ start index.html
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git add .
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git commit -m "update html"
+[master ee53775] update html
+ 1 file changed, 1 insertion(+)
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ start styles.css
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ start styles.css
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git add .
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git commit -m "update css"
+[master 8fad079] update css
+ 1 file changed, 1 insertion(+)
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git log
+commit 8fad0793696db50707f84abd7406e973dd0c25d6 (HEAD -> master)
+Author: BryceD628 <b.dasso628@gmail.com>
+Date:   Thu Jul 1 11:58:20 2021 -0500
+
+    update css
+
+commit ee537753fcfb3b313f518472f311c8f40eca6947
+Author: BryceD628 <b.dasso628@gmail.com>
+Date:   Thu Jul 1 11:57:09 2021 -0500
+
+    update html
+
+commit 1eba0e4022819cf118f1c12b5b1ff0f565718589
+Author: BryceD628 <b.dasso628@gmail.com>
+Date:   Thu Jul 1 11:54:08 2021 -0500
+
+    first commit
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ git revert -n 8fad079
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git add .
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git commit -m "update css"
+[master e289bcb] update css
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ touch commands.txt
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
+$ start commands.txt
+
+dasso@DESKTOP-1DEJLC7 MINGW64 ~/Desktop/test (master)
